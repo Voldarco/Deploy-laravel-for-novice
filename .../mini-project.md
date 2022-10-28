@@ -71,6 +71,8 @@ Now that our installer is up to date, we can now install our web server Apache a
 
 ## **Step Three:**
 
+Installing Dependencies
+
 I install the following packages at once (Apache2, Wget, Git, Curl)
 
 ```php
@@ -79,8 +81,37 @@ apt install -y wget git apache2 curl
 **Note:* You might like to take each at a step so here is a great link for that: <br>
 https://github.com/michaelagbiaowei/altschool-cloud-exercises/tree/main/Semester-Project
 
+## **Step Four:**
 
+ Install PHP
 
+ Add the SURY PPA for PHP 8.1
+
+```php
+apt -y install lsb-release apt-transport-https ca-certificates
+wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
+```
+
+Add the PPA to the server packages using the following command
+
+```php
+echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/php.list
+```
+
+Update the packages and install PHP 8.1
+
+```php
+apt update
+```
+```php
+apt install php libapache2-mod-php php8.1-mysql php8.1-common php8.1-mysql php8.1-xml php8.1-xmlrpc php8.1-curl php8.1-gd php8.1-imagick php8.1-cli php8.1-dev php8.1-imap php8.1-mbstring php8.1-opcache php8.1-soap php8.1-zip php8.1-intl -y
+```
+
+Once PHP is installed you can check the version using the following command.
+
+```php
+php -v
+```
 
 
 
