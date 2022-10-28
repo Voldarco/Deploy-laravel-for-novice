@@ -89,6 +89,8 @@ https://github.com/michaelagbiaowei/altschool-cloud-exercises/tree/main/Semester
 
 ```php
 apt -y install lsb-release apt-transport-https ca-certificates
+```
+```php
 wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg
 ```
 
