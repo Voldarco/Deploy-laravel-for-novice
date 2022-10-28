@@ -1,8 +1,8 @@
 ## **ALTSCHOOL AFRICA**
 
-## **Mini Project (Exercise 11)**
+### **Mini Project (Exercise 11)**
 
-# Prerequisites
+### Prerequisites
 - basic knowledge of the linux file system | ownership | permissions 🐧
 
 - basic knowledge of git 🚦
@@ -11,7 +11,7 @@
 
 -  How to use linux editor `vim` or at least `nano` 📝
 
-# Overview
+### Overview
 
 - Setup Debain 11 on a virtual machine instance with a cloud provider or as instructed
 
@@ -50,6 +50,34 @@ Open your terminal and **cd into** where you have the downloaded key pair. Paste
 
 ![Screenshot (11)](https://user-images.githubusercontent.com/69207791/198623362-b2d38f3a-5f78-44d3-a813-f96dc563fbc5.png)
 
+## **Step Two:** 
+
+Update the Package Installer
+
+I switch to `root user` because most installation will require root access; You can run all command below as normal user using ``**sudo**``.
+<br> We will be updating the apt repository before installing any package
+
+```php
+sudo su
+```
+
+```php
+ apt update && apt upgrade -y
+```
+
+**When prompted, select keep the local version currently installed and Hit the Enter Key**
+
+Now that our installer is up to date, we can now install our web server Apache and the following packages on the server
+
+## **Step Three:**
+
+I install the following packages at once (Apache2, Wget, Git, Curl)
+
+```php
+apt install -y wget git apache2 curl
+```
+**Note:* You might like to take each at a step so here is a great link for that: <br>
+https://github.com/michaelagbiaowei/altschool-cloud-exercises/tree/main/Semester-Project
 
 
 
