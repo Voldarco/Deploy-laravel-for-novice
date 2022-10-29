@@ -20,3 +20,22 @@ You can the go the this link <a href="https://education.github.com/experiences/v
 **Note:** Only .me domains are free and you only get one so pick the name you want knowing you can't change it for at least a year. 
 
 After you've secured the domain. You need to go to namecheap website and login in then visit your dashboard and checkout this tab. 
+
+
+![IMG-20221028-WA0036_1667034470675](https://user-images.githubusercontent.com/69207791/198823669-93244738-8ef5-4691-874e-7aef401daa07.jpg)
+
+
+#####  here are the steps: 
+
+- Log in your name cheap account
+- Go to the dashboard
+- On the side, click domain list,
+- Click mange
+- Click advancedDNS
+- Delete all A records
+- Create a new A record using ‘@’ as the host then your AWS Public IP as value.
+![Screenshot_20221028-212716_1667035515352](https://user-images.githubusercontent.com/69207791/198824209-86d3b355-4b41-43e4-a2cc-e943b560fdac.jpg)
+- save. 
+
+
+
