@@ -43,27 +43,37 @@ After you've secured the domain. You need to go to namecheap website and login i
 
 - Log into your aws, then go to services and type route 53.
 
-$screenshot.
+![Screenshot_20221028-211858_1667036233145](https://user-images.githubusercontent.com/69207791/198827741-e9ce294f-0da5-4a58-8597-aa5518fb4d01.jpg)
+
 - click on the first option.
 
-- Click on create hosted zone. 
-$screenshot. 
+- Click on create hosted zone.
+ 
+![Screenshot_20221028-214701_1667036528641](https://user-images.githubusercontent.com/69207791/198827790-e33685ef-164c-42db-82d1-bfc6be87b060.jpg)
+
 
 - Type in the domain name and click create hosted zone.
-$screenshot.
+
+![Screenshot_20221028-215024_1667036827876](https://user-images.githubusercontent.com/69207791/198827843-eb45feab-a058-4ab5-96ff-995f70abf19a.jpg)
 
 - Click on create record.
-$screenshot.
+
+![Screenshot_20221028-215359_1667037030928](https://user-images.githubusercontent.com/69207791/198827894-51ccbdaa-856b-41af-9c7e-3b0bf4c9d5e7.jpg)
+
 
 - Copy the the public IP address of your ec2 instance, paste inside the values field and create record. 
-$screenshot. 
+
+![Screenshot_20221028-215931_1667037377746](https://user-images.githubusercontent.com/69207791/198827933-0bcf200a-9f18-4221-a619-dfd499331796.jpg)
+
 
 Click on create record again.
+
 - In the first typing field, i.e the one above the first drop-down menu, type **www**
 - For the drop-down menu change it to **C-Name**
 - In the values field, i.e first typing field after drop-down menu, type your domain name.
 
-$screenshot
+![Screenshot_20221028-220834_1667037617928](https://user-images.githubusercontent.com/69207791/198827969-66b16b8f-7494-448f-b896-dbed18f540b3.jpg)
+
 - Click on create. 
 
 #### Linking your AWS instance to your domain. 
@@ -75,7 +85,9 @@ Now head over to your namecheap domain or the domain you used above.
 - On the side, click domain list,
 - Click mange
 - Scroll down and Search for a section on DNS or nameservers.
-$screenshot
+
+![Screenshot_20221028-221827_1667038491025](https://user-images.githubusercontent.com/69207791/198828075-7189aabc-e6a4-4593-8572-77daba0d39ab.jpg)
+
 
 - Now change that option from **NameCheap BasicDNS** to **Custom DNS** 
 $screenshot
