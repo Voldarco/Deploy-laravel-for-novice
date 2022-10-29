@@ -90,14 +90,21 @@ Now head over to your namecheap domain or the domain you used above.
 
 
 - Now change that option from **NameCheap BasicDNS** to **Custom DNS** 
-$screenshot
 
-- Copy the 4 values from the hosted zone on your AWS route 53 area and paste them in each field for the Custom DNS. 
-$screenshot. 
+![Screenshot_20221028-222257_1667041871016](https://user-images.githubusercontent.com/69207791/198828173-5ef6445b-02a1-427e-bc44-33121a9bb508.jpg)
+
+
+- Copy the 4 DNS values from the hosted zone on your AWS route 53 area and paste them in each field for the Custom DNS. 
+
+![IMG-20221028-WA0068_1667041993762](https://user-images.githubusercontent.com/69207791/198828272-2999108d-428d-40fd-8c1a-4fd713023d66.jpg)
+
 
 - Once you've done this for all 4 DNS. Save your settings on NameCheap. And that's all. The settings would reflect anywhere from between 30 mins - 48 hours. Once it's reflected, your url should now be able to lead you to your Laravel default page
 
+![Screenshot_20221028-223619_1667042211339](https://user-images.githubusercontent.com/69207791/198828393-236bed20-061f-484a-821f-f71796ee1454.jpg)
 
+
+This has been a great journey and you can always come back to this in the future for review. 
 
 
 
