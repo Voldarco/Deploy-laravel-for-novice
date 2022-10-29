@@ -58,6 +58,14 @@ $screenshot.
 - Copy the the public IP address of your ec2 instance, paste inside the values field and create record. 
 $screenshot. 
 
+Click on create record again.
+- In the first typing field, i.e the one above the first drop-down menu, type **www**
+- For the drop-down menu change it to **C-Name**
+- In the values field, i.e first typing field after drop-down menu, type your domain name.
+
+$screenshot
+- Click on create. 
+
 
 
 
