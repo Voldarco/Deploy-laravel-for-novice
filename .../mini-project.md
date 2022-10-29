@@ -54,7 +54,7 @@ Open your terminal and **cd into** where you have the downloaded key pair. Paste
 
 Update the Package Installer
 
-I switch to `root user` because most installation will require root access; You can run all command below as normal user using ``**sudo**``.
+I switch to `root user` because most installation will require root access; You can run all command below as normal user using **``sudo``**.
 <br> We will be updating the apt repository before installing any package
 
 ```php
@@ -78,8 +78,8 @@ I install the following packages at once (Apache2, Wget, Git, Curl)
 ```php
 apt install -y wget git apache2 curl
 ```
-**Note:* You might like to take each at a step so here is a great link for that: <br>
-https://github.com/michaelagbiaowei/altschool-cloud-exercises/tree/main/Semester-Project
+**Note:* You might like to take each at a step so here is a great link for that<br>
+<a href="https://github.com/michaelagbiaowei/altschool-cloud-exercises/tree/main/Semester-Project">here</a>
 
 ## **Step Four:**
 
