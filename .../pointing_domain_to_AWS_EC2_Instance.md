@@ -37,5 +37,29 @@ After you've secured the domain. You need to go to namecheap website and login i
 ![Screenshot_20221028-212716_1667035515352](https://user-images.githubusercontent.com/69207791/198824209-86d3b355-4b41-43e4-a2cc-e943b560fdac.jpg)
 - save. 
 
+#### Linking Aws Instance.
+
+- Open a new tab
+
+- Log into your aws, then go to services and type route 53.
+
+$screenshot.
+- click on the first option.
+
+- Click on create hosted zone. 
+$screenshot. 
+
+- Type in the domain name and click create hosted zone.
+$screenshot.
+
+- Click on create record.
+$screenshot.
+
+- Copy the the public IP address of your ec2 instance, paste inside the values field and create record. 
+$screenshot. 
+
+
+
+
 
 
