@@ -30,7 +30,7 @@ After you've secured the domain. You need to go to namecheap website and login i
 - Log in your name cheap account
 - Go to the dashboard
 - On the side, click domain list,
-- Click mange
+- Click manage
 - Click advancedDNS
 - Delete all A records
 - Create a new A record using ‘@’ as the host then your AWS Public IP as value.
